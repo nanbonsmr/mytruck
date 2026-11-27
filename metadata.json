@@ -1,0 +1,6 @@
+{
+  "name": "MyTruck Delivery",
+  "description": "Good food and everyday essentials from neighborhood restaurants and shops, delivered with clear tracking and local care.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
