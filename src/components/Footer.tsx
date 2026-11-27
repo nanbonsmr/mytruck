@@ -93,15 +93,6 @@ export function Footer({
                 </li>
                 <li>
                   <a
-                    href="#features"
-                    onClick={(e) => handleHomeSection(e, '#features')}
-                    className="inline-flex min-h-[36px] items-center hover:text-[#FAF7F0] transition-colors"
-                  >
-                    Features
-                  </a>
-                </li>
-                <li>
-                  <a
                     href="#app-showcase"
                     onClick={(e) => handleHomeSection(e, '#app-showcase')}
                     className="inline-flex min-h-[36px] items-center hover:text-[#FAF7F0] transition-colors"

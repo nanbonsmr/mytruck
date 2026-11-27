@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { HowItWorks } from './components/HowItWorks';
-import { FeaturesBento } from './components/FeaturesBento';
 import { AppShowcase } from './components/AppShowcase';
 import { FaqAndCta } from './components/FaqAndCta';
 import { Footer } from './components/Footer';
@@ -154,7 +153,6 @@ export default function App() {
           <>
             <Hero onOpenDownload={openDownload} />
             <HowItWorks />
-            <FeaturesBento />
             <AppShowcase />
             <FaqAndCta onOpenDownload={openDownload} />
           </>

@@ -1,5 +1,5 @@
 import { type MouseEvent } from 'react';
-import { ArrowLeft, ExternalLink, FileText } from 'lucide-react';
+import { ArrowLeft, FileText } from 'lucide-react';
 
 interface TermsOfServiceProps {
   onBackHome: () => void;
@@ -254,16 +254,15 @@ export function TermsOfService({
                 11. Privacy
               </h2>
               <p className="mt-3 text-sm sm:text-base leading-relaxed text-[#4A5B52]">
-                Our handling of personal information is described in the{' '}
-                <strong className="font-semibold text-[#153D2C]">MyTruck Delivery Privacy Policy</strong>, available at{' '}
+                Our handling of personal information is described in the MyTruck Delivery{' '}
                 <a
                   href="/privacy-policy"
                   onClick={handlePrivacyClick}
                   className="font-semibold text-[#168A7B] underline underline-offset-2 hover:text-[#153D2C]"
                 >
-                  mytrucket.com/privacy
+                  Privacy Policy
                 </a>
-                . By using the app, you acknowledge that you have had the opportunity to review that policy.
+                . You can read it here in this app. By using MyTruck, you acknowledge that you have had the opportunity to review that policy.
               </p>
             </article>
 
@@ -273,13 +272,13 @@ export function TermsOfService({
                 12. Suspension and termination
               </h2>
               <p className="mt-3 text-sm sm:text-base leading-relaxed text-[#4A5B52]">
-                You may stop using the app at any time. You can request deletion of your account in the app or at{' '}
+                You may stop using the app at any time. To request account deletion, use the delete option in your account settings or open this app’s{' '}
                 <a
                   href="/delete-account"
                   onClick={handleDeleteClick}
                   className="font-semibold text-[#168A7B] underline underline-offset-2 hover:text-[#153D2C]"
                 >
-                  mytrucket.com/delete-account
+                  Account Deletion page
                 </a>
                 .
               </p>
@@ -364,18 +363,6 @@ export function TermsOfService({
                 </p>
                 <p className="text-[#4A5B52]">
                   <span className="font-semibold text-[#153D2C]">Address:</span> Nekemte
-                </p>
-                <p className="text-[#4A5B52]">
-                  <span className="font-semibold text-[#153D2C]">Website:</span>{' '}
-                  <a
-                    href="https://mytrucket.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 font-medium text-[#168A7B] underline underline-offset-2 hover:text-[#153D2C]"
-                  >
-                    <span>https://mytrucket.com</span>
-                    <ExternalLink className="h-3.5 w-3.5" aria-hidden="true" />
-                  </a>
                 </p>
               </div>
             </article>

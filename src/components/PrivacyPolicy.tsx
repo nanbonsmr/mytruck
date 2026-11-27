@@ -1,5 +1,5 @@
 import { type MouseEvent } from 'react';
-import { ArrowLeft, ExternalLink, ShieldCheck } from 'lucide-react';
+import { ArrowLeft, ShieldCheck } from 'lucide-react';
 
 interface PrivacyPolicyProps {
   onBackHome: () => void;
@@ -228,7 +228,7 @@ export function PrivacyPolicy({
                   onClick={handleDeleteClick}
                   className="font-semibold text-[#168A7B] underline underline-offset-2 hover:text-[#153D2C]"
                 >
-                  mytrucket.com/delete-account
+                  the Account Deletion page
                 </a>
                 . Account deletion removes account and profile information and associated data as described in the deletion flow. Some completed order or transaction records may be retained for accounting, legal, or operational reasons; where feasible, those records are retained without your name or phone number. Information held by third-party providers may also be subject to their retention practices.
               </p>
@@ -311,18 +311,6 @@ export function PrivacyPolicy({
                 </p>
                 <p className="text-[#4A5B52]">
                   <span className="font-semibold text-[#153D2C]">Address:</span> Nekemte
-                </p>
-                <p className="text-[#4A5B52]">
-                  <span className="font-semibold text-[#153D2C]">Website:</span>{' '}
-                  <a
-                    href="https://mytrucket.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 font-medium text-[#168A7B] underline underline-offset-2 hover:text-[#153D2C]"
-                  >
-                    <span>https://mytrucket.com</span>
-                    <ExternalLink className="h-3.5 w-3.5" aria-hidden="true" />
-                  </a>
                 </p>
               </div>
             </article>

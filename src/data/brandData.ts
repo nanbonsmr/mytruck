@@ -13,10 +13,7 @@ export interface NavItem {
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'How it works', href: '#how-it-works' },
-  { label: 'Features', href: '#features' },
   { label: 'App screens', href: '#app-showcase' },
-  { label: 'Privacy', href: '/privacy-policy' },
-  { label: 'Terms', href: '/terms-of-service' },
 ];
 
 export interface HowItWorksStep {

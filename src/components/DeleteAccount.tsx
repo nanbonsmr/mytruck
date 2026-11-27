@@ -90,7 +90,7 @@ export function DeleteAccount({
         <div className="mt-6 sm:mt-8 rounded-3xl bg-[#153D2C] p-6 sm:p-10 text-[#FAF7F0]">
           <div className="flex items-center gap-2.5 text-xs sm:text-sm font-semibold text-[#FF9B6A]">
             <Trash2 className="h-4 w-4 shrink-0" aria-hidden="true" />
-            <span>mytrucket.com/delete-account</span>
+            <span>MyTruck account support</span>
           </div>
           <h1
             id="delete-account-heading"
@@ -99,7 +99,7 @@ export function DeleteAccount({
             Account and Data Deletion
           </h1>
           <p className="mt-4 max-w-3xl text-sm sm:text-base leading-relaxed text-[#FAF7F0]/85">
-            You can request deletion of your MyTruck Delivery account either inside the mobile app or through this web request page.
+            You can request deletion in your MyTruck Delivery app settings or complete the request form on this page.
           </p>
         </div>
 
@@ -134,14 +134,10 @@ export function DeleteAccount({
                     <Mail className="h-4 w-4" aria-hidden="true" />
                   </div>
                   <h3 className="mt-3 font-display text-base font-bold text-[#153D2C]">
-                    On the web
+                    From this page
                   </h3>
                   <p className="mt-1.5 text-sm leading-relaxed text-[#4A5B52]">
-                    Visit{' '}
-                    <span className="font-semibold text-[#153D2C]">
-                      mytrucket.com/delete-account
-                    </span>{' '}
-                    and submit the deletion request form on this page.
+                    Complete the request form here to prepare an email for our privacy team. Review and send the message from your email app to finish your request.
                   </p>
                 </div>
               </div>
